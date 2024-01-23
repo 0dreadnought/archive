@@ -118,32 +118,32 @@ The code is written in python and imports abc, os, random and time libraries to 
 
 Example of victory
 
-<img src="assets/1.png">
+![screen](assets/1.png)
 
 ![screen](assets/2.png)
 
-![screen](/assets/3.png)
+![screen](assets/3.png)
 
-![screen](/assets/4.png)
-
-time skip
-
-![screen](/assets/5.png)
-
-![screen](/assets/6.png)
+![screen](assets/4.png)
 
 time skip
 
-![screen](/assets/7.png)
+![screen](assets/5.png)
 
-![screen](/assets/8.png)
+![screen](assets/6.png)
 
-![screen](/assets/9.png)
+time skip
 
-![screen](/assets/11.png)
+![screen](assets/7.png)
+
+![screen](assets/8.png)
+
+![screen](assets/9.png)
+
+![screen](assets/11.png)
 
 Example of defeat
 
-![screen](/assets/12.png)
+![screen](assets/12.png)
 
-![screen](/assets/13.png)
+![screen](assets/13.png)
