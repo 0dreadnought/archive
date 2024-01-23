@@ -8,6 +8,12 @@ Minesweeper is a logic puzzle video game. Open up tiles and use hints from them 
 
 ## Gameplay features
 
+Open tiles by entering its column and row number. If there is no mine on the tile, opened tile will revial how many mines there are around it.
+
+Use information from other tiles to picture positions of mines.
+
+Mark mines with flags, by selecting Flag operation and entering desired column and row.
+
 If you open up a tile without any mines around it will automaticaly open each tile around.
 
 You can used Open operation on already opened tiles. If you put right ammount of flags around the tile, all other tiles will open. However if any of the flags are not covering mine spot, mine will be opened, resulting in defeat.
@@ -110,4 +116,34 @@ The code is written in python and imports abc, os, random and time libraries to 
 
 ## Screenshots
 
-![screen](/assets/screen.png)
+Example of victory
+
+![screen](/assets/1.png)
+
+![screen](/assets/2.png)
+
+![screen](/assets/3.png)
+
+![screen](/assets/4.png)
+
+time skip
+
+![screen](/assets/5.png)
+
+![screen](/assets/6.png)
+
+time skip
+
+![screen](/assets/7.png)
+
+![screen](/assets/8.png)
+
+![screen](/assets/9.png)
+
+![screen](/assets/11.png)
+
+Example of defeat
+
+![screen](/assets/12.png)
+
+![screen](/assets/13.png)
