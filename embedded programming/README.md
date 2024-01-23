@@ -1,7 +1,5 @@
 # Ilyas-esp
 
-![signoffsheet](/vids/signed_signoffSheet.png)
-
 ## WorkSheet3 
 
 #### Pass exercise 1
