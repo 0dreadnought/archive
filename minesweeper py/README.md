@@ -118,9 +118,9 @@ The code is written in python and imports abc, os, random and time libraries to 
 
 Example of victory
 
-![screen](/assets/1.png)
+<img src="assets/1.png">
 
-![screen](/assets/2.png)
+![screen](assets/2.png)
 
 ![screen](/assets/3.png)
 
