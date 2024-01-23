@@ -1,0 +1,8 @@
+Milk	10/11/2022	21	1.12	Dairy
+Chicken	11/11/2022	3	3.49	Meat&Fish
+Tomatoes	13/11/2022	5	0.89	Vegetables&fruit
+Ice-cream	11/11/2023	10	4.59	Freezer
+Nutella	11/06/2023	4	3.99	Bread&spreads
+Peanuts	01/04/2024	13	1.49	Dried-Goods
+Pringles	01/01/2024	1	1.99	Snacks
+Shampoo	01/01/2025	5	2.99	Care-Products

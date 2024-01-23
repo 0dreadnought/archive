@@ -1,0 +1,68 @@
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+<script>
+    var params = new URLSearchParams(window.location.search);
+    var name = params.get('name');
+    if (window.location.search===null || window.location.search===""||name===""||name===null){
+        window.location.href="Login.html"
+    } 
+
+function check(){
+ if (document.getElementById("max").value <=1 || document.getElementById("max").value >=22) {
+    alert("POSITIVE INTEGER FROM 2 TO 21!!");
+    document.getElementById("max").value="";
+ }
+}
+
+function check2(){
+if (document.getElementById("rolls").value <=0 || document.getElementById("rolls").value >=101){
+    alert("POSITIVE INTEGER FROM 1 TO 10!!");
+    document.getElementById("rolls").value="";
+    }
+}
+function check3(){
+ if (document.getElementById("max").value <=1 || document.getElementById("max").value >=22) {
+    alert("POSITIVE INTEGER FROM 2 TO 21!!");
+    document.getElementById("max").value="";}
+ else if (document.getElementById("rolls").value <=0 || document.getElementById("rolls").value >=101){
+    alert("POSITIVE INTEGER FROM 1 TO 10!!");
+    document.getElementById("rolls").value="";
+ }
+ else {
+ document.getElementById("form").submit(); 
+ }
+}
+
+</script>
+</head>
+<body>
+                <form action="history.py" method="POST">
+                <button class="btn-outline-dark"type="submit">My history</button>
+                <input type="text" id="historyname" name="username" style="display: none;">
+            </form>
+            <script>
+                    document.getElementById('historyname').value=name;
+            </script>
+
+    <div style="position: relative;width: 100%;height: 100%;">
+        
+        <div style="position: absolute;left: 25%;top: 15%;height: 50%;width: 50%;font-size: larger;text-align: center;">
+         
+    <form action="Second.py" id="form" method ="POST">
+        Enter a positive integer from 2 to 21:
+        <input type="number" name="max" id="max" value="" onchange="check()"><br>
+        Enter a positive number from 1 to 100:
+        <input type="number" name="rolls" id="rolls" value="" onchange="check2()"><br>
+        <button class="btn btn-outline-dark" type="button" onclick="check3()">Continue</button>
+        <input type="text" name="username" id="name" style="display: none;">
+        </form>
+        <script>
+            document.getElementById('name').value=name;
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
