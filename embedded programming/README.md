@@ -1,6 +1,8 @@
 # Ilyas-esp
 
-## WorkSheet3 
+you can't check yourself if the code actually works, as it needs makefiles and a ton of other files and takes too much space, so you will have to trust me
+
+## WorkSheet3 GPIO ports and pins
 
 #### Pass exercise 1
 
@@ -14,7 +16,7 @@
 
 ![3ce](vids/3.c.e.gif)
 
-## WorkSheet4
+## WorkSheet4 get/putchar routines and newlib/printf/scanf
 
 #### 4.1
 
@@ -24,7 +26,7 @@
 
 ![4.2](vids/4.2.gif)
 
-## WorkSheet5
+## WorkSheet5 Interrupts
 
 #### 5.1
 
