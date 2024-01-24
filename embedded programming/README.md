@@ -16,7 +16,7 @@ you can't check yourself if the code actually works, as it needs makefiles and a
 
 ![3ce](vids/3.c.e.gif)
 
-## WorkSheet4 get/putchar routines and newlib/printf/scanf
+## WorkSheet4 io-getchar/io-putchar routines and newlib/printf/scanf
 
 #### 4.1
 
