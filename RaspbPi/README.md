@@ -2,7 +2,7 @@
 
 In this task, I have made a simple circuit on a bread board. The circuit itself is a linear connection of a power source (CR2032 Lithium Coin Battery), 330 ohm resistor and an LED.
 
-<img src="/resource/task1pwd.jpeg" alt="task1 circuit" width=45%>
+<img src="resource/task1pwd.jpeg" alt="task1 circuit" width=45%>
 
 
 
@@ -12,7 +12,7 @@ The second task did not require major circuit changes but to make a raspberry pi
 
 Task 2 code & circuit:
 
-![task2circuit](/resource/task2ckt.png)
+![task2circuit](resource/task2ckt.png)
 
     import RPi.GPIO as gp
     import time
@@ -23,7 +23,7 @@ Task 2 code & circuit:
     time.sleep(2)
     gp.output(17,gp.LOW)
 
-![task2](/resource/task2.gif)
+![task2](resource/task2.gif)
 
 Circuit in action
 
@@ -35,7 +35,7 @@ For this task, I was asked to add two more LEDs and make them blink in a repeata
 
 Task 3 code & circuit:
 
-<img src="/resource/task3ckt.jpeg" alt="task3 circuit" width=45%>
+<img src="resource/task3ckt.jpeg" alt="task3 circuit" width=45%>
 
     import RPi.GPIO as gp
     import time
@@ -60,7 +60,7 @@ Task 3 code & circuit:
         gp.output(27,gp.LOW)
         time.sleep(1)
 
-![task3](/resource/task3.gif)
+![task3](resource/task3.gif)
 
 Circuit in action
 
@@ -72,8 +72,8 @@ Forth task asks to implement two buttons in the existing circuit. One of them mu
 
 Task 4 code & circuit:
 
-<img src="/resource/task4rp.jpeg" alt="task4 raspberry pi's GPIOS" width=45%> 
-<img src="/resource/task4bb.jpeg" alt="task4 breadboard" width=45%>
+<img src="resource/task4rp.jpeg" alt="task4 raspberry pi's GPIOS" width=45%> 
+<img src="resource/task4bb.jpeg" alt="task4 breadboard" width=45%>
 
     import RPi.GPIO as gp
     import time
