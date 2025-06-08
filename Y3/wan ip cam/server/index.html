@@ -1,0 +1,47 @@
+<center>
+    <label for="name">Device name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="pass">Stream password:</label><br>
+    <input type="text" id="pass" name="pass"><br>
+    
+    <img id = 'frame' width=560 heigth=640></center>
+    
+    
+    <script>
+    function watch(){
+    const name = document.getElementById('name');
+    const pass = document.getElementById('pass');
+    const img = document.getElementById('frame');
+    
+    img.visibilility = "visible";
+    
+    img.src = "api/camera?name="+name.value+"&pass="+pass.value ;
+    }
+    </script>
+    
+    <script>
+    async function updateImage() {
+        const img = document.getElementById('frame');
+        const name = document.getElementById('name');
+        const pass = document.getElementById('pass');
+    
+        if(img.visibillity=="hidden") return;
+        const newImg = new Image();
+        const url ="api/camera?name="+name.value+"&pass="+pass.value + `&timestamp=${new Date().getTime()}`;
+    
+        newImg.src = url;
+    
+        try {
+          await new Promise((resolve, reject) => {
+            newImg.onload = resolve;
+            newImg.onerror = reject;
+          });
+    
+          img.src = url;
+        } catch (error) {
+          console.log('Image update skipped:', error);
+        }
+      }
+    
+      setInterval(updateImage, 100);
+    </script>
