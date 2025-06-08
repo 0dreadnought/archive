@@ -1,5 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Utenov Ilyas C++ Cource Work 1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
-  Utenov Ilyas C++ Cource Work 1.cpp
-C:\Users\Ильяс\OneDrive\Рабочий стол\eto nado v git\cpp\Supermarket Management app\Utenov Ilyas C++ Cource Work 1.cpp(103,11): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Ильяс\OneDrive\Рабочий стол\eto nado v git\cpp\Supermarket Management app\Utenov Ilyas C++ Cource Work 1.cpp(192,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Ильяс\OneDrive\Рабочий стол\eto nado v git\cpp\Supermarket Management app\Utenov Ilyas C++ Cource Work 1.cpp(495,14): warning C4101: WrongOperation: неиспользованная локальная переменная

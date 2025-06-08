@@ -1,0 +1,109 @@
+html, body {
+
+  background: url(anime-dj.gif);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin:0%;
+ 
+}
+
+p{
+text-indent: 20px;
+}
+
+nav{
+display: flexbox;
+font-family: 'Oswald', sans-serif;;
+margin:  auto;
+text-align:center;
+position: relative;
+width: 700px;
+height: 50px;
+background-color:#34495e;
+border-radius: 8px;
+font-size: 0;
+}
+nav a {
+margin: 0 40px;
+line-height: 50px;
+height: 100%;
+font-size: 15px;
+display: inline-block;
+position: relative;
+padding: 0 5px  ;
+text-decoration: none;
+transition: all ease-in-out 250ms;
+text-align: center;
+color: white;
+cursor: pointer;
+}
+nav a::after{
+content: '';
+position:absolute;
+display: block;
+height: 13%;
+width: 0%;
+bottom: 10px;
+border-radius: 4px;
+background-color: rgb(63, 110, 79);
+transition: all ease-in-out 250ms;
+
+}
+
+nav a:hover:after{
+width: 100%;
+}
+
+nav a:hover{
+color: rgb(63, 150, 79);
+}
+
+
+
+
+#Unik{
+padding-left: 35%;
+font-size: xx-large;
+}
+
+
+
+.raduzhka {
+width: 85%;
+background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+background-size: 400% 400%;
+-webkit-background-clip: text;
+
+-webkit-text-fill-color: transparent;
+-webkit-animation: rainbow 10s ease infinite;
+animation: rainbow 5s ease infinite;
+font-family: 'Showcard Gothic';
+font-size: 25px;
+line-height: 30px;
+}
+.raduzhka a{
+width: 85%;
+background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+background-size: 400% 400%;
+-webkit-background-clip: text;
+
+-webkit-text-fill-color: transparent;
+-webkit-animation: rainbow 5s ease infinite;
+animation: rainbow 5s ease infinite;
+font-family: 'Showcard Gothic';
+font-size: 25px;
+line-height: 30px;
+}
+
+@-webkit-keyframes rainbow {
+0% { background-position: 0% 50% }
+50% { background-position: 100% 50% }
+100% { background-position: 0% 50% }
+}
+
+@keyframes rainbow {
+0% { background-position: 0% 50% }
+50% { background-position: 100% 50% }
+100% { background-position: 0% 50% }
+}

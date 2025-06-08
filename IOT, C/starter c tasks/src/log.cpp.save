@@ -1,5 +1,0 @@
-#include <stdio.h>
-
-type Log::method_name(arguments){
-
-}

@@ -1,0 +1,240 @@
+nav{
+    height: 0;
+    
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(254, 255, 230);
+}
+.number{
+    width: 15px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    ;
+    
+}
+.passengers{
+    width: 33%;
+    height: 100%;
+}
+.pmbutton{
+
+    
+    border-radius: 7.5px;
+    background-color: aqua;
+}
+.banner {
+    position: relative;
+    
+}
+  
+  .banner-slide {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 420px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: relative;
+    color: #fff;
+    font-weight: 0;
+    padding-top: 200px;
+    background-size: cover;
+    white-space: nowrap;
+    font-size: 40px;
+    text-shadow: 1px 1px 5px #aaa;
+    padding-left: 210px;
+  }
+
+  .banner-slide.active {
+    display: block;
+    opacity: 1;
+  }
+  
+  .banner-dots {
+    position:absolute;
+    bottom: 0;
+    left: 40%;
+    transform: translateX(-50%);
+  }
+  
+  nav div div{
+    position: relative;
+    right: 50px;
+    bottom: 10px;
+    top: 305px;
+    
+  }
+
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: black;
+  }
+  
+  .banner img {
+    height: 420px;
+    max-width: 1920px;
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 1;
+    padding: 0px 0px;
+  }
+  .top{
+    display: flex;
+    align-items: center;
+    
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    border:solid 2px rgb(254, 255, 230);
+    padding: 20px;
+    width: 1920px;
+    height: 72px;
+  }
+  .top img {
+    margin-right: 10px;
+    height: 50px;
+    width: 90px;
+  }
+  .menu-border {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    display: flexbox; 
+    position: relative; 
+    left: 10%; 
+    width: 80%; 
+    text-align: center; 
+    background-color: rgb(253, 255, 249); 
+    margin-top: 369px;
+  }
+ input[type="text"]::-webkit-input-placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type="text"]:-moz-placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type="text"]::-moz-placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type="text"]:-ms-input-placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  font-size: 16px;
+  line-height: 1.428571429;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+input[type="text"]:focus {
+  border-color: #66afe9;
+  outline: 0;
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+------ 
+input[type="date"]::-webkit-input-placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type="date"]:-moz-placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type="date"]::-moz-placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type="date"]:-ms-input-placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type="date"] {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  font-size: 16px;
+  line-height: 1.428571429;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+input[type="date"]:focus {
+  border-color: #66afe9;
+  outline: 0;
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.booking-button:hover {
+  color: rgb(134, 127, 127);
+  cursor: pointer;
+}
+.check-button:hover {
+  color: rgb(134, 127, 127);
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"]{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  margin-right: 0;
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+footer{
+  margin-top: 6.85%;
+  margin-left: 0px;
+  display: flex;
+  color: #333;
+  border:solid 1px #9b804d;
+  padding: 20px;
+  width: 1920px;
+  height: 72px;
+  background-color: #9b804d;
+}

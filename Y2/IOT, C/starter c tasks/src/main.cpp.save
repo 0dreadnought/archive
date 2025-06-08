@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+
+std::string line(std::string message){
+	std::string line;
+	bool flag=false;
+	for(int i=0;i<sizeof(message);i++){
+		if(message[i]==':'){flag=true;}
+		if(flag){line=line+message[i];}
+	}
+
+	return line;
+}
+
+int main() {
+    cout 
+
+    return 0;
+}
